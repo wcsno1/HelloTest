@@ -5,8 +5,8 @@ import (
 	"net/http"
 	)
 func helloHandler(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Hello, My Dear Sister\n")
-	io.WriteString(w, "Good luck and have a nice day,from WuChao")
+	io.WriteString(w, "Hello, World!\n")
+	io.WriteString(w, "Hello, Dream!")
 }
 func main() {
 	http.HandleFunc("/hello", helloHandler)
