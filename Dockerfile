@@ -2,9 +2,9 @@ FROM golang
 
 MAINTAINER wuchao "89212550@qq.com"
 
-ADD . $GOPATH/src/HelloWorld
+ADD . $GOPATH/src/HelloTest
 
-WORKDIR $GOPATH/src/HelloWorld
+WORKDIR $GOPATH/src/HelloTest
 
 RUN go build hello.go
 
